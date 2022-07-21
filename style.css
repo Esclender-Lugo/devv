@@ -35,6 +35,7 @@ html{
 .header__container{
     font-family: var(--dm-sans);
     text-align: center;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -60,9 +61,7 @@ html{
     color: var(--white);
 }
 
-.slogan__container{
-    position: relative;
-}
+
 
 .slogan__container h1{
    font-size: var(--lg-font);
@@ -77,8 +76,7 @@ html{
 
 .guide-button{
     position: absolute;
-    
-    top: 51%;
+    top: 89%;
     padding: 1.5rem;
     width: 22.9rem;
     color: var(--warm-black);
@@ -95,12 +93,12 @@ html{
 .guide-button a{
     text-decoration: none;
     color: var(--warm-black);
-    
 }
 
-.guide-button i{
+.guide-button img{
     margin-left: 1.4rem;
 }
+
 
 
 
