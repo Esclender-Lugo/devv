@@ -185,6 +185,22 @@ html{
     transform: rotate(90deg);
 }
 
+.web-info__feature p > span{
+    padding: 0;
+    font-size: var(--sm-font);
+    color: var(--warm-black);
+    
+    font-weight: var(--font-bold);
+}
+
+.web-info__feature .update p{
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+    margin-bottom: 7.2rem;
+    font-family: var(--inter);
+    padding: 0.8rem;
+    font-size: var(--sm-font);
+}
 
 
 
