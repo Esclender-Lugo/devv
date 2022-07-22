@@ -13,8 +13,10 @@
     --soft-blue: #e7f5ff;
     --warm-black: #201e1c;
     --grey:#bababa;
+    --soft-grey: #757575;
     --off-white: #faf8f7;
     --white: #ffffff;
+    --info-section-bg: #E5E5E5;
     --lg-font: 24px;
     --sm-font: 14px;
     --lg-line: 26px;
@@ -99,6 +101,89 @@ html{
     margin-left: 1.4rem;
 }
 
+.main__web-info{
+    background-color: var(--info-section-bg);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.web-info__intro{
+    font-size: var(--dm-sans);
+}
+
+.main__web-info .web-info__img{
+    margin-top: 5.9rem;
+}
+
+.web-info__intro h2{
+    margin-top: 4rem;
+    font-family: var(--dm-sans);
+    font-size: var(--lg-font);
+    line-height: var(--lg-line);
+    font-weight: var(--font-bold);
+}
+
+.web-info__intro p{
+    margin-top: 2.4rem;
+    font-family: var(--dm-sans);
+    font-size: var(--sm-font);
+    font-weight: var(--font-normal);
+    color: var(--soft-grey);
+}
+
+.web-info__feature{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.web-info__feature h2{
+    position: absolute;
+    top: 5.3rem;
+    left: 7.7rem;
+    font-family: var(--inter);
+    color: var(--secondary-blue);
+}
+
+.web-info__feature .table{
+    font-family: var(--inter);
+    margin-bottom: 2rem;
+    margin-top: 8.3rem;
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 19rem;
+    /* bordes */
+    border-radius: 10px;
+    
+}
+
+.web-info__feature span{
+    font-weight: var(--font-normal);
+    font-size: var(--sm-line);
+    border-bottom: 1px solid var(--info-section-bg);
+    color: var(--grey);
+    padding: 1rem 0;
+}
+
+.web-info__feature .table p{
+    border-left: 1px solid var(--info-section-bg);
+    border-bottom: 1px solid var(--info-section-bg);
+    color: var(--soft-grey);
+    font-size: var(--sm-font);
+    padding: 1.1rem 0;
+    
+}
+
+.web-info__feature a{
+    position: absolute;
+    left: 3.2rem;
+    top: 15.7rem;
+    transform: rotate(90deg);
+}
 
 
 
