@@ -155,7 +155,7 @@ html{
     background-color: var(--white);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 19rem;
+    width: 70%;
     /* bordes */
     border-radius: 10px;
     
@@ -166,7 +166,7 @@ html{
     font-size: var(--sm-line);
     border-bottom: 1px solid var(--info-section-bg);
     color: var(--grey);
-    padding: 1rem 0;
+    padding: 1.1rem 1.2rem;
 }
 
 .web-info__feature .table p{
@@ -180,7 +180,7 @@ html{
 
 .web-info__feature a{
     position: absolute;
-    left: 3.2rem;
+    left: 7%;
     top: 15.7rem;
     transform: rotate(90deg);
 }
