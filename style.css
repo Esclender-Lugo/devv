@@ -242,7 +242,7 @@ html{
     text-align: left;
     border-radius: 8px;
     margin-top: 1.6rem;
-    width: 95vw;
+    width: 92vw;
     padding: 2rem 1.6rem;
 }
 
@@ -260,6 +260,26 @@ html{
     margin-top: 1rem;
     font-size: var(--sm-line);
 }
+
+.bitcoin-girl__image{
+    position: relative;
+}
+
+
+.bitcoin-girl__image h3{
+    position: absolute;
+    left: 30%;
+    top: 7rem;
+    font-family: var(--dm-sans);
+    font-weight: bold;
+    color: var(--white);
+    font-size: var(--lg-font);
+}
+
+.bitcoin-girl__image img{
+    width: 100vw;
+}
+
 
 
 
