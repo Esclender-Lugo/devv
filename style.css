@@ -280,10 +280,81 @@ html{
     width: 100vw;
 }
 
+.main__plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--dm-sans);
+    text-align: center;
+    padding-top: 6.4rem;
+    background-color: var(--off-white);
+}
+
+.recomend{
+    position: absolute;
+    top: -1.4rem;
+    left: 5.6rem;
+    padding: .8rem;
+    color: var(--white);
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+}
 
 
 
+.main__plans > h2{
+    font-size: 28px;
+}
 
+.main__plans > p{
+    margin-top: 2.4rem;
+    font-size: 16px;
+    font-weight: var(--font-normal);
+    margin-bottom: 11rem;
+}
+
+.plan-card{
+    background-color: var(--white);
+    box-shadow: var(--box-shadow-white);
+    border-radius: 10px;
+    padding: 3.1rem 1.6rem 2.4rem;
+    position: relative;
+}
+
+.plan-card h3{
+    font-size: var(--lg-font);
+}
+
+.plan-card  .dollar{
+    position: absolute;
+    top: 6.6rem;
+    left: 5rem;
+    font-size: 20px;
+}
+
+.plan-card .dollar + span{
+    font-size: 52px;
+    font-weight: var(--font-bold);
+}
+
+.plan-card p{
+    font-size: 1.3rem;
+}
+
+.plan-card button{
+    margin-top: 1.6rem;
+    padding: 1.5rem 4.8rem 1.5rem 1.6rem;
+    position: relative;
+
+    border-radius: 4px;
+    border: 2px solid var(--bitcoin-orange);
+}
+
+.plan-card button img {
+    position: absolute;
+    top: 1rem;
+    right: 1.2rem;
+}
 
 
 
