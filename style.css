@@ -317,8 +317,9 @@ html{
     background-color: var(--white);
     box-shadow: var(--box-shadow-white);
     border-radius: 10px;
-    padding: 3.1rem 1.6rem 2.4rem;
+    padding: 3.1rem 3rem 2.4rem;
     position: relative;
+    margin-bottom: 6.5rem;
 }
 
 .plan-card h3{
@@ -328,7 +329,7 @@ html{
 .plan-card  .dollar{
     position: absolute;
     top: 6.6rem;
-    left: 5rem;
+    left: 5.5rem;
     font-size: 20px;
 }
 
@@ -345,9 +346,12 @@ html{
     margin-top: 1.6rem;
     padding: 1.5rem 4.8rem 1.5rem 1.6rem;
     position: relative;
-
+    background-color: var(--white);
     border-radius: 4px;
     border: 2px solid var(--bitcoin-orange);
+    /* typography */
+    font-size: 1.4rem;
+    font-weight: var(--font-bold);
 }
 
 .plan-card button img {
@@ -356,7 +360,35 @@ html{
     right: 1.2rem;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bitcoin-orange);
+    height: 15rem;
+    font-family: var(--dm-sans);
+    color: var(--white);
+}
 
+footer .footer__webs{
+    margin-right: 5rem;
+} 
+
+.footer__webs h2:nth-child(1), h2:nth-child(2){
+    margin-bottom: .8rem;
+}
+
+.footer__registered-logo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registered-mark{
+    font-size: .8rem
+    ;
+}
 
 
 
