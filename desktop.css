@@ -1,0 +1,34 @@
+body{
+    overflow-x: hidden;
+}
+
+.web-info__feature h2{
+    left: 25rem;
+    top: 4rem;
+    font-size: 2.5rem;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #f7931a;
+    border-radius: 8px;
+}
+
+.slider::-webkit-scrollbar-thumb{
+    background-color: #f7931a;
+    border-radius: 8px;
+}
+
+.slider::-webkit-scrollbar{
+    height: 5px;
+    background-color: transparent;
+}
+
+footer{
+    margin-top: 2rem;
+}
+

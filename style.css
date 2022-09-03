@@ -35,6 +35,8 @@ html{
 }
 
 
+
+
 .header__container{
     font-family: var(--dm-sans);
     text-align: center;
@@ -276,6 +278,8 @@ html{
     font-size: var(--lg-font);
 }
 
+
+
 .bitcoin-girl__image img{
     width: 100vw;
 }
@@ -413,6 +417,8 @@ footer .footer__webs{
     font-size: .8rem
     ;
 }
+
+
 
 
 
